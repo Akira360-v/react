@@ -25,22 +25,33 @@
 
     <script type="text/babel">
       // создание реакт сомпонента
-        function Car() {
-          return (
-            <div className="car">
-              <h3>asd</h3>
-              <p>
-                Year: <strong>asd</strong>
-              </p>
-            </div>
-          )
-        }
-        // реакт рендер
-        ReactDOM.render(
-          <Car />,
-          document.querySelector('#root')
-          // document.getElementById('root')
-        )
+      function Car(props) {
+        return (
+          <div className="car">
+            <h3>{props.name}</h3>
+            <p>
+              Year: <strong>{props.year}</strong>
+            </p>
+            <small>This is car</small>
+          </div>
+        );
+      }
+
+      const App = (
+        <div>
+          <Car name="Ford Focus" year="2017" />
+          <Car name="Audi A8" year="2015" />
+          <Car name="Mazda 3" year="2010" />
+          <Car name="Mazda 3" year="2010" />
+        </div>
+      );
+
+      // реакт рендер
+      ReactDOM.render(
+        App,
+        document.querySelector("#root")
+        // document.getElementById('root')
+      );
     </script>
     <!--
       Note: this page is a great way to try React but it's not suitable for production.
