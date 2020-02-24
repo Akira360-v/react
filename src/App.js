@@ -1,14 +1,8 @@
 import React from 'react'
+import Navbar from './components/app/Navbar'
 // import logo from './logo.svg'
 import './App.css'
 
-const Navbar = () => {
-  return (
-    <div>
-      Navbar
-    </div>
-  )
-}
 
 const App = () => {
   return (
