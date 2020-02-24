@@ -2,7 +2,7 @@
 ### `npm run build`
 
 
-
+npm install sass-loader node-sass --save-dev
 
 
 
