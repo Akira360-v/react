@@ -1,36 +1,22 @@
 import React from 'react'
 import Navbar from './components/app/Navbar'
-// import logo from './logo.svg'
+import Sidebar from './components/app/Sidebar'
 import './App.css'
+
+import logo from './logo.svg'
 
 
 const App = () => {
   return (
     <div className="App">
       <Navbar />
-      App !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-      App !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-      App !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-      
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          myProgram Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-
+      <Sidebar />
+      App !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! App
+      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! App
+      <img src={logo} className="App-logo" alt="logo" />
+      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     </div>
   )
 }
 
 export default App
-
