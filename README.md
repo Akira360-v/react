@@ -2,8 +2,35 @@
 ### `npm run build`
 
 
-npm install sass-loader node-sass --save-dev
 
+
+
+
+
+
+### import img
+import Headerlogo from '../../assets/images/logo.jpg'
+
+<img src={Headerlogo} alt="logo"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- install sass -->
+npm install sass-loader node-sass --save-dev
 
 
 
