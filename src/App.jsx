@@ -3,22 +3,18 @@ import Navbar from './components/app/Navbar'
 import Sidebar from './components/app/Sidebar'
 import './App.css'
 import './assets/sass/index.sass'
-import Employees from './views/Employees.jsx'
-
-// import img
-import logo from './logo.svg'
+import Employees from './views/Employees'
+import Equipment from './views/Equipment'
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app-wrapper">
       <Navbar />
       <Sidebar />
-      <Employees name="блок1" names="текст" />
-      <Employees name="блок2" names="текст" />
-      App !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! App
-      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! App
-      <img src={logo} className="App-logo" alt="logo" />
-      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      <div className="app-wrapper-content">
+        <Employees />
+        <Equipment />
+      </div>
     </div>
   )
 }

@@ -3,10 +3,12 @@ import Header_logo from '../../assets/images/RH_logo.svg'
 
 const Logo = () => {
   return (
-    <div className='Logo'>
-      <img src={Header_logo} alt="logo"/>
+    <div className="Logo">
+      <a href="/">
+        <img src={Header_logo} alt="logo" />
+      </a>
     </div>
   )
 }
 
-export default Logo;
+export default Logo
