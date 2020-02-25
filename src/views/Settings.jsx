@@ -4,7 +4,6 @@ const Settings = () => {
   return (
     <ul className="Statistics">
       Settings
-      
     </ul>
   )
 }
