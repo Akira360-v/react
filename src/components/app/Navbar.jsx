@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from './Logo'
-import NavMenu from './NavMenu'
 
 const Navbar = () => {
   return (
@@ -8,11 +7,7 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar">
           <Logo />
-          <nav>
-            <NavMenu url="/" name="home" />
-            <NavMenu url="/layout" name="layout" />
-            <NavMenu url="/next" name="next" />
-          </nav>
+          <p>imput</p>
         </div>
       </div>
     </div>

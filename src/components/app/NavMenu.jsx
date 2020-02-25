@@ -1,10 +1,11 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const NavMenu = props => {
   return (
     <ul className="NavMenu">
       <li>
-        <a href={props.url}>{props.name}</a>
+        <NavLink to={props.url}>{props.name}</NavLink>
       </li>
     </ul>
   )
